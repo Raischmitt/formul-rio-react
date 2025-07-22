@@ -33,12 +33,8 @@ export default function StateLogin() {
 
     function handleSubmit(event) {
         event.preventDefault();
-
+    
         console.log(enteredValues);
-        setEnteredValues({
-            email: '',
-            password: ''
-        });
     }
 
     return (
